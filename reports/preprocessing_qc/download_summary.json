@@ -1,0 +1,11 @@
+{
+  "version": "1.0.3",
+  "source_url": "https://physionet.org/files/ptb-xl/1.0.3/",
+  "archive_url": "https://physionet.org/content/ptb-xl/get-zip/1.0.3/",
+  "verified_at_utc": "2026-11-07T15:36:52.476945+00:00",
+  "manifest_sha256": "b7224b92b341511ec3ceb13dc6652079b2c36a06504bcb49506f157f51dc695d",
+  "expected_files": 87203,
+  "verified_files": 87203,
+  "missing_or_corrupt": [],
+  "verified_bytes": 3173239818
+}

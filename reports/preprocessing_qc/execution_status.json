@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-07",
+  "download": {
+    "job_id": 8462957,
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed": "00:19:00"
+  },
+  "tests": {
+    "job_id": 8463455,
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "passed": 17,
+    "elapsed": "00:00:03"
+  },
+  "smoke": {
+    "job_id": 8463456,
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "recordings": 64,
+    "elapsed": "00:02:13"
+  },
+  "full": {
+    "job_id": 8463461,
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "recordings": 21799,
+    "elapsed": "00:04:29"
+  },
+  "source_hashes_match_executed_version": true,
+  "git_commit_or_push_performed": false
+}

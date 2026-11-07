@@ -1,0 +1,6 @@
+variable,meaning,dtype,units,missing_count
+NORM,Normal ECG,binary integer,0 absent / 1 present,0
+MI,Myocardial infarction,binary integer,0 absent / 1 present,0
+STTC,ST/T changes,binary integer,0 absent / 1 present,0
+CD,Conduction disturbance,binary integer,0 absent / 1 present,0
+HYP,Hypertrophy,binary integer,0 absent / 1 present,0

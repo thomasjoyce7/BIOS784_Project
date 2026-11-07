@@ -1,0 +1,8 @@
+# Paths resolve relative to the repository, regardless of working directory.
+raw_dir: data/raw
+output_dir: data/processed
+report_dir: reports/preprocessing_qc
+version: 1.0.3
+sampling_frequency: 100
+samples: 1000
+leads: [I, II, III, AVR, AVL, AVF, V1, V2, V3, V4, V5, V6]

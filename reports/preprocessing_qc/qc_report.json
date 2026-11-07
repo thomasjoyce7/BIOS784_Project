@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "smoke_test": false,
+  "source_version": "1.0.3",
+  "raw_files_verified": 87203,
+  "raw_manifest_sha256": "b7224b92b341511ec3ceb13dc6652079b2c36a06504bcb49506f157f51dc695d",
+  "raw_recordings": 21799,
+  "raw_patients": 18869,
+  "attempted_recordings": 21799,
+  "processed_recordings": 21799,
+  "processed_patients": 18869,
+  "excluded_recordings": 0,
+  "exclusions": [],
+  "waveforms": [
+    21799,
+    1000,
+    12
+  ],
+  "dtype": "float32",
+  "units": "mV",
+  "predictor_missingness": {
+    "age": {
+      "count": 0,
+      "fraction": 0.0
+    },
+    "sex": {
+      "count": 0,
+      "fraction": 0.0
+    },
+    "height": {
+      "count": 14825,
+      "fraction": 0.6800770677554017
+    },
+    "weight": {
+      "count": 12378,
+      "fraction": 0.567824212119822
+    },
+    "age_deidentified": {
+      "count": 0,
+      "fraction": 0.0
+    }
+  },
+  "age_deidentified_count": 293,
+  "labels": {
+    "recordings": 21799,
+    "positive": {
+      "NORM": 9514,
+      "MI": 5469,
+      "STTC": 5235,
+      "CD": 4898,
+      "HYP": 2649
+    },
+    "positive_fraction": {
+      "NORM": 0.43644203862562503,
+      "MI": 0.2508830680306436,
+      "STTC": 0.2401486306711317,
+      "CD": 0.22468920592687738,
+      "HYP": 0.1215193357493463
+    },
+    "multilabel_recordings": 5144,
+    "without_diagnostic_label": 411,
+    "eligible_recordings": 21388
+  },
+  "official_full_release_labels": {
+    "NORM": 9514,
+    "MI": 5469,
+    "STTC": 5235,
+    "CD": 4898,
+    "HYP": 2649
+  },
+  "partitions": {
+    "train": {
+      "recordings": 17418,
+      "patients": 15023,
+      "labels": {
+        "recordings": 17418,
+        "positive": {
+          "NORM": 7596,
+          "MI": 4379,
+          "STTC": 4186,
+          "CD": 3907,
+          "HYP": 2119
+        },
+        "positive_fraction": {
+          "NORM": 0.4361005856011023,
+          "MI": 0.2514065908829946,
+          "STTC": 0.24032609943736366,
+          "CD": 0.22430818693305776,
+          "HYP": 0.12165575841083937
+        },
+        "multilabel_recordings": 4127,
+        "without_diagnostic_label": 334,
+        "eligible_recordings": 17084
+      }
+    },
+    "validation": {
+      "recordings": 2183,
+      "patients": 1942,
+      "labels": {
+        "recordings": 2183,
+        "positive": {
+          "NORM": 955,
+          "MI": 540,
+          "STTC": 528,
+          "CD": 495,
+          "HYP": 268
+        },
+        "positive_fraction": {
+          "NORM": 0.4374713696747595,
+          "MI": 0.24736601007787448,
+          "STTC": 0.2418689876316995,
+          "CD": 0.22675217590471827,
+          "HYP": 0.12276683463124141
+        },
+        "multilabel_recordings": 509,
+        "without_diagnostic_label": 37,
+        "eligible_recordings": 2146
+      }
+    },
+    "test": {
+      "recordings": 2198,
+      "patients": 1904,
+      "labels": {
+        "recordings": 2198,
+        "positive": {
+          "NORM": 963,
+          "MI": 550,
+          "STTC": 521,
+          "CD": 496,
+          "HYP": 262
+        },
+        "positive_fraction": {
+          "NORM": 0.4381255686988171,
+          "MI": 0.2502274795268426,
+          "STTC": 0.2370336669699727,
+          "CD": 0.2256596906278435,
+          "HYP": 0.1191992720655141
+        },
+        "multilabel_recordings": 508,
+        "without_diagnostic_label": 40,
+        "eligible_recordings": 2158
+      }
+    }
+  },
+  "patient_overlap_counts": {
+    "train/validation": 0,
+    "train/test": 0,
+    "validation/test": 0
+  },
+  "validation": {
+    "passed": true,
+    "all_rows_alignment_checked": 21799,
+    "all_rows_labels_reconstructed": 21799,
+    "all_waveform_values_finite": true,
+    "source_waveform_round_trips": 32,
+    "patient_overlap": false,
+    "fitted_transformations": []
+  },
+  "warnings": [
+    "Official RECORDS has a missing newline between records100/21000/21837_lr and records500/00000/00001_hr; parsed as two paths in memory. Raw file remains unchanged.",
+    "Source ages above 89 are deidentified; source values are preserved.",
+    "All-zero label rows are retained; use has_diagnostic_label for diagnostic-task eligibility."
+  ],
+  "files": {
+    "dataset.json": {
+      "bytes": 1845,
+      "sha256": "048dc0ce2b1ccc6fad9681d1619a12506fcb1ac55d9789df6e583fd6b4d46cf3"
+    },
+    "labels.csv": {
+      "bytes": 381362,
+      "sha256": "76667d41d2c470756965b5041d4289955aa9d03588cd446003fe7962862528ec"
+    },
+    "predictors.csv": {
+      "bytes": 640094,
+      "sha256": "64e65577458490bb06595c72c1cee472c16b0e09597e90ee99e558ecf8ea9cc9"
+    },
+    "recording_ids.npy": {
+      "bytes": 174520,
+      "sha256": "64d1ccf4eebf5e3de64cda04cbbb920128ed825e5672a575be900cd4a0c42ac2"
+    },
+    "splits.csv": {
+      "bytes": 425521,
+      "sha256": "ac184acfc6a6f3e1ee592095fcd8de51686d137d04ab82e75a93a33d5556c1e3"
+    },
+    "waveforms.npy": {
+      "bytes": 1046352128,
+      "sha256": "db19119299ecaba728394e8af86032b4a2f2e50a4f8cd69db9ff8365a6530a5c"
+    }
+  }
+}
