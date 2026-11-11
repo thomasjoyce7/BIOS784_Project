@@ -180,3 +180,72 @@ jobs may leave `data/.processed-*` staging directories for manual cleanup.
 Known upstream 1.0.3 issue: `RECORDS` omits a newline between the last 100 Hz and
 first 500 Hz paths. Both files are present and verified. The pipeline parses this
 specific boundary in memory and records a QC warning; raw files are untouched.
+
+### Group collaboration: pull and push on `main`
+
+We are all working directly on **`main`**. **Pull the latest repository before
+making changes each time you start working.** This brings in other members' work
+and reduces the chance of editing an outdated file. Coordinate before editing the
+same file, especially Jupyter notebooks, which are difficult to merge.
+
+Each member needs GitHub collaborator write access and must authenticate using
+their own GitHub account. The shared repository is
+[BIOS784_Project](https://github.com/thomasjoyce7/BIOS784_Project).
+
+**1. Before editing**, open your existing local repository and run:
+
+```bash
+git status
+git switch main
+git pull --ff-only origin main
+```
+
+Start from a clean working tree. If `git status` shows unfinished edits, save them
+in a local commit or stash them before switching/pulling; do not discard them.
+If you use a stash, restore it with `git stash pop` after pulling and resolve any
+conflicts before continuing. If `--ff-only` reports that branches have diverged
+because you already have local commits, use `git pull --rebase origin main` to
+integrate the remote changes as described below.
+
+**2. Make and check your changes**, then commit only the intended files. Replace
+the example path and commit message with your own:
+
+```bash
+git status
+git diff
+git add path/to/changed_file
+git diff --cached
+git commit -m "Describe the changes you made"
+```
+
+Check notebooks in Jupyter as well as reviewing the staged changes. Keep raw data,
+processed datasets, environments, and logs out of commits; `.gitignore` excludes
+the standard generated locations. Avoid staging unrelated files.
+
+**3. Pull again immediately before pushing**, because someone may have pushed
+while you were working:
+
+```bash
+git pull --rebase origin main
+git push origin main
+```
+
+The rebase places your unpublished local commits after the latest shared commits.
+If it brings in changes to code you use, rerun the relevant checks before pushing.
+If the push is rejected because `main` changed again, repeat the pull/rebase,
+check the result, and push again. **Never force-push the shared `main` branch.**
+
+**If a rebase reports conflicts**, stop and inspect `git status`. Coordinate with
+the other author, edit each conflicting file to keep the intended combined result,
+and remove any conflict markers. Then run:
+
+```bash
+git add path/to/resolved_file
+git rebase --continue
+```
+
+Repeat for any remaining conflicts, check the result, and push only after the
+rebase finishes successfully. If unsure how to resolve it, `git rebase --abort`
+returns to the state before the rebase so you can ask the group for help.
+
+**Routine: pull → edit → check → commit → pull/rebase → check → push.**
