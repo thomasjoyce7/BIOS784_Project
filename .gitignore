@@ -18,3 +18,15 @@ slurm-*.err
 # Local configuration
 .env
 
+
+# CNN local checkpoints, linkage/predictions, and execution environments
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.tmp
+.venv-*/
+.pytest_cache/
+analysis/Thomas/cnn_results/**/checkpoints/
+analysis/Thomas/cnn_results/**/checks/
+analysis/Thomas/cnn_results/**/validation_notebooks/
