@@ -1,0 +1,9 @@
+model,trial,lr,dropout,weight_decay,weighted,status,completed_epochs,best_epoch,validation_macro_AUROC
+ECG only,0,0.001,0.3,0.0001,False,early_stopped,15,7,0.9255044377890227
+ECG only,1,0.0003,0.3,0.0001,False,early_stopped,26,18,0.9236447170038391
+ECG only,2,0.001,0.5,0.001,False,early_stopped,19,11,0.9235476316323773
+ECG only,3,0.001,0.3,0.0001,True,early_stopped,15,7,0.9266867642099719
+ECG + demographics,0,0.001,0.3,0.0001,False,early_stopped,25,17,0.9270900809451469
+ECG + demographics,1,0.0003,0.3,0.0001,False,early_stopped,26,18,0.925083947446392
+ECG + demographics,2,0.001,0.5,0.001,False,early_stopped,26,18,0.9253177772222362
+ECG + demographics,3,0.001,0.3,0.0001,True,early_stopped,15,7,0.927409444485033

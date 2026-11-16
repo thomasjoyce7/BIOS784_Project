@@ -1,0 +1,14 @@
+{
+  "job_id": 9177375,
+  "mode": "full",
+  "time_limit": "04:00:00",
+  "partition": "rtx6k_gpu",
+  "qos": "gpu_rtx6k",
+  "gpus": 1,
+  "cpus": 4,
+  "memory": "16G",
+  "run_name": "full",
+  "submission_authorized_by_user": true,
+  "stdout": "slurm-cnn-9177375.out",
+  "stderr": "slurm-cnn-9177375.err"
+}

@@ -1,0 +1,10 @@
+{
+  "measured_median_training_seconds_per_batch": 0.0071082656213548034,
+  "full_training_batches_per_epoch": 134,
+  "maximum_budget_epochs_both_models": 400,
+  "extrapolated_training_only_hours": 0.10583417702906041,
+  "planning_hours_with_2x_allowance": 0.21166835405812082,
+  "assumptions": "Small-subset GPU timing scaled linearly; 2x allowance is assumed, not measured.",
+  "estimate_is_extrapolation": true,
+  "full_run_completed": false
+}

@@ -1,0 +1,11 @@
+partition,class,positive,prevalence
+train,NORM,233,0.455078125
+train,MI,139,0.271484375
+train,STTC,123,0.240234375
+train,CD,118,0.23046875
+train,HYP,68,0.1328125
+validation,NORM,112,0.4375
+validation,MI,59,0.23046875
+validation,STTC,54,0.2109375
+validation,CD,71,0.27734375
+validation,HYP,32,0.125

@@ -1,0 +1,3 @@
+partition,ECGs,patients
+train,512,508
+validation,256,252

@@ -1,0 +1,10 @@
+# Python 3.11 scientific/notebook versions available in the tested Longleaf environment.
+# Install CUDA-enabled torch separately using the command in CNN_README.md.
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.11.4
+scikit-learn==1.2.2
+matplotlib==3.8.0
+nbclient==0.8.0
+nbformat==5.9.2
+ipykernel==6.28.0

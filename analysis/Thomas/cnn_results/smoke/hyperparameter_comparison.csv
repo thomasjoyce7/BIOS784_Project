@@ -1,0 +1,5 @@
+model,trial,lr,dropout,weight_decay,weighted,status,completed_epochs,best_epoch,validation_macro_AUROC
+ECG only,0,0.001,0.3,0.0001,False,completed_max_epochs,2,2,0.7603911237734945
+ECG only,1,0.001,0.3,0.0001,True,completed_max_epochs,2,2,0.760508343738051
+ECG + demographics,0,0.001,0.3,0.0001,False,completed_max_epochs,2,2,0.6741243814050504
+ECG + demographics,1,0.001,0.3,0.0001,True,completed_max_epochs,2,2,0.7155314704712787

@@ -1,0 +1,25 @@
+{
+  "cohort_hash": "1a5c2a2012323473b0a5e4db83473cf4f34adaff124f59f48e901a1ac7617539",
+  "model_fingerprints": {
+    "ECG only": "16fd1f70eba9d97faa89732aaf14256c61ee68c4e4c5d103f5cb6ea52d58b9ea",
+    "ECG + demographics": "076dd2eb0035f825571a42121bd203134ed6e99020b4b432005f090bd74df848"
+  },
+  "thresholds": {
+    "ECG only": [
+      0.5249948501586914,
+      0.4857984781265259,
+      0.4728514552116394,
+      0.43427497148513794,
+      0.4879380762577057
+    ],
+    "ECG + demographics": [
+      0.4910225570201874,
+      0.48828595876693726,
+      0.49517616629600525,
+      0.4597185254096985,
+      0.5018929839134216
+    ]
+  },
+  "threshold_source": "validation",
+  "test_used_for_selection": false
+}

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "mode": "smoke",
+  "assessment_partition": "validation",
+  "eligible_cohort_hash": "1a5c2a2012323473b0a5e4db83473cf4f34adaff124f59f48e901a1ac7617539"
+}

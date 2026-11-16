@@ -1,0 +1,3 @@
+partition,age_missing_or_deidentified,observed_age_mean,observed_age_SD,observed_age_median,sex_missing_or_invalid,female_percent_observed
+train,7,58.55841584158416,16.893018113336833,61.0,0,44.921875
+validation,3,56.76679841897233,18.55400109875754,57.0,0,45.703125
