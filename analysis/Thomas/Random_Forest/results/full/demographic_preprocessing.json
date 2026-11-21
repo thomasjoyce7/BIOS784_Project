@@ -1,0 +1,9 @@
+{
+  "age_median": 61.0,
+  "sex_mode": 0.0,
+  "fitted_partition": "train",
+  "training_ids_hash": "e98b33296b92b280ae84fdf39e4ed41d1d822476f30ccef4f583e6dc1070caa6",
+  "age_policy": "Source age <0, >89, missing, or deidentified -> training median",
+  "sex_policy": "0 male / 1 female; invalid/missing -> training mode",
+  "scaling": "none; tree inputs do not need scaling"
+}

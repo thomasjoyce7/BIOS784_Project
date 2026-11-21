@@ -1,0 +1,18 @@
+{
+  "full_job_id": 10011831,
+  "full_state": "COMPLETED",
+  "full_exit_code": "0:0",
+  "full_elapsed": "00:05:10",
+  "cpu_cores": 8,
+  "gpu_count": 0,
+  "final_test_job_id": 10014277,
+  "correctness_tests_passed": 10,
+  "executed_notebook_code_cells": 8,
+  "embedded_figures": 5,
+  "feature_values_match_logistic_notebook_exactly": true,
+  "shared_cohort_matches_CNN": true,
+  "cnn_results_and_weights_preserved": true,
+  "rf_model_helper_sha256": "fe091811ff08f0f7b617e96c67fe8e98a352cb5e1579afedc20880aeecff090d",
+  "presentation_correction": "Validation-only permutation plot label corrected; models/predictions/numerical metrics unchanged.",
+  "cache_regression_check": "Already-frozen validation thresholds are preserved on roundoff-only reruns."
+}

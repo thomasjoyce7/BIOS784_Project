@@ -3,7 +3,7 @@
 ## Downloading and Preprocessing Instructions
 
 Prepare reproducible ECG waveforms, demographic predictors, diagnostic labels,
-and patient partitions for future model comparisons. No predictive models are fitted.
+and patient partitions for future model comparisons. These preprocessing steps do not fit predictive models.
 
 Dataset: [PhysioNet PTB-XL **1.0.3**](https://physionet.org/content/ptb-xl/1.0.3/),
 DOI 10.13026/kfzx-aw45, CC BY 4.0. Cite the versioned dataset and Wagner et al.,
@@ -249,3 +249,11 @@ rebase finishes successfully. If unsure how to resolve it, `git rebase --abort`
 returns to the state before the rebase so you can ask the group for help.
 
 **Routine: pull → edit → check → commit → pull/rebase → check → push.**
+
+### Thomas's analysis folders
+
+See [analysis/Thomas/README.md](analysis/Thomas/README.md) for the organized
+[CNN](analysis/Thomas/CNN/1D_CNN_model.ipynb),
+[Random Forest](analysis/Thomas/Random_Forest/Random_Forest_model.ipynb), and
+[Descriptives](analysis/Thomas/Descriptives/descriptive_analysis.ipynb) notebooks
+and their Longleaf execution commands. Existing CNN results have been preserved.

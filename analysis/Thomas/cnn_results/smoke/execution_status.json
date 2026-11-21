@@ -1,9 +1,0 @@
-{
-  "mode": "smoke",
-  "status": "PASS",
-  "implementation_signature": "1af141d198a7c51bb66c7b7712746fa3112233a317a0068e9019787a2ba74d8e",
-  "started_utc": "2026-11-14T16:56:09.129073+00:00",
-  "slurm_job_id": "9176998",
-  "code_cells": 11,
-  "wall_seconds": 27.756087869987823
-}

@@ -27,6 +27,18 @@ slurm-*.err
 *.tmp
 .venv-*/
 .pytest_cache/
-analysis/Thomas/cnn_results/**/checkpoints/
-analysis/Thomas/cnn_results/**/checks/
-analysis/Thomas/cnn_results/**/validation_notebooks/
+analysis/Thomas/CNN/cnn_results/**/checkpoints/
+analysis/Thomas/CNN/cnn_results/**/checks/
+analysis/Thomas/CNN/cnn_results/**/validation_notebooks/
+
+# Local random forest estimators and private feature/prediction caches
+*.joblib
+analysis/Thomas/Random_Forest/results/**/models/
+analysis/Thomas/Random_Forest/results/**/validation_notebooks/
+analysis/Thomas/Random_Forest/results/.execution.lock
+
+# Generated smoke-run outputs and preprocessing smoke QC reports
+analysis/**/smoke/
+analysis/**/smoke_*/
+analysis/**/smoke-*/
+/reports/smoke*/

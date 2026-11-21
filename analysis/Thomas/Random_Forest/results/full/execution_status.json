@@ -1,0 +1,10 @@
+{
+  "mode": "full",
+  "status": "PASS",
+  "implementation_signature": "a831e1ed58d9ab90d5f3aec26eed45bbee7354532c642666422d3fe569766f29",
+  "started_utc": "2026-11-21T01:36:52.514031+00:00",
+  "slurm_job_id": "10011831",
+  "test_outcomes_evaluated": true,
+  "code_cells": 8,
+  "wall_seconds": 304.05135000124574
+}

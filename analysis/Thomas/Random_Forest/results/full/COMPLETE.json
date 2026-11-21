@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "mode": "full",
+  "assessment_partition": "test",
+  "cohort_hash": "1a5c2a2012323473b0a5e4db83473cf4f34adaff124f59f48e901a1ac7617539",
+  "feature_count_ECG": 60,
+  "feature_count_combined": 62,
+  "test_outcomes_evaluated": true,
+  "wall_seconds_inside_notebook": 293.4937702920288
+}

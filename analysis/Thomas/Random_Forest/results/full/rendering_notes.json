@@ -1,0 +1,8 @@
+{
+  "change": "Corrected grouped permutation plot title to validation (the actual assessment data); no models, predictions or metrics changed.",
+  "historical_full_run_signature": "a831e1ed58d9ab90d5f3aec26eed45bbee7354532c642666422d3fe569766f29",
+  "current_presentation_signature": "ab3df9a7f33b8d7ac6f401dd652aef5ca37445c3c555568fd1350649dac1bca6",
+  "model_data_and_metrics_unchanged": true,
+  "rerun_policy": "Any future full notebook execution requires the usual current-code smoke check.",
+  "cached_rerun_policy": "Reuse already-frozen validation thresholds when model/selection identities match; checked with a roundoff-perturbation regression test."
+}

@@ -1,0 +1,30 @@
+{
+  "selection_source": "validation",
+  "threshold_source": "validation",
+  "test_used_for_selection": false,
+  "cohort_hash": "1a5c2a2012323473b0a5e4db83473cf4f34adaff124f59f48e901a1ac7617539",
+  "model_signatures": {
+    "ECG only": "d7a507b39ad10e780f03455c39a661b6aed15305ffc95f9894e3aeabb1e4b175",
+    "ECG + demographics": "1b91d75df0eb1e77a5879cc2bd353e5d243a501d947414ee08f5db4926ce64ab"
+  },
+  "selected_trials": {
+    "ECG only": 3,
+    "ECG + demographics": 1
+  },
+  "thresholds": {
+    "ECG only": [
+      0.40008346836751535,
+      0.3105386962389954,
+      0.2507652991752905,
+      0.35022428470222594,
+      0.3127606821582156
+    ],
+    "ECG + demographics": [
+      0.3757555879254978,
+      0.3340355884052137,
+      0.33921941383506427,
+      0.4318480463450545,
+      0.3638403288618883
+    ]
+  }
+}

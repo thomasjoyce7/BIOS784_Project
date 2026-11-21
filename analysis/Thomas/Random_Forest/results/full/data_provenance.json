@@ -1,0 +1,15 @@
+{
+  "cohort_hash": "1a5c2a2012323473b0a5e4db83473cf4f34adaff124f59f48e901a1ac7617539",
+  "helper_sha256": "fe091811ff08f0f7b617e96c67fe8e98a352cb5e1579afedc20880aeecff090d",
+  "dataset_sha256": "048dc0ce2b1ccc6fad9681d1619a12506fcb1ac55d9789df6e583fd6b4d46cf3",
+  "table_hashes": {
+    "predictors.csv": "64e65577458490bb06595c72c1cee472c16b0e09597e90ee99e558ecf8ea9cc9",
+    "labels.csv": "76667d41d2c470756965b5041d4289955aa9d03588cd446003fe7962862528ec",
+    "splits.csv": "ac184acfc6a6f3e1ee592095fcd8de51686d137d04ab82e75a93a33d5556c1e3",
+    "recording_ids.npy": "64d1ccf4eebf5e3de64cda04cbbb920128ed825e5672a575be900cd4a0c42ac2"
+  },
+  "waveform_size": 1046352128,
+  "waveform_mtime_ns": 1794066517212457903,
+  "numpy_version": "1.26.4",
+  "sklearn_version": "1.2.2"
+}

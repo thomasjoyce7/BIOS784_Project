@@ -1,0 +1,9 @@
+model,trial,n_estimators,max_depth,min_samples_leaf,max_features,class_weight,validation_macro_AUROC,fit_seconds,status
+ECG only,0,200,,1,sqrt,,0.8195796660899358,20.833242444321513,completed
+ECG only,1,200,20.0,3,sqrt,balanced_subsample,0.8244877396605755,19.00189652107656,completed
+ECG only,2,200,,3,0.5,balanced_subsample,0.8235707390180792,67.36408932320774,completed
+ECG only,3,200,20.0,5,sqrt,,0.8257245228314133,16.786290580406785,completed
+ECG + demographics,0,200,,1,sqrt,,0.8344175198226775,18.590664533898234,completed
+ECG + demographics,1,200,20.0,3,sqrt,balanced_subsample,0.8393183204267579,16.355763528496027,completed
+ECG + demographics,2,200,,3,0.5,balanced_subsample,0.8383888267162896,61.480893045663834,completed
+ECG + demographics,3,200,20.0,5,sqrt,,0.8392820242797928,14.624107031151652,completed
