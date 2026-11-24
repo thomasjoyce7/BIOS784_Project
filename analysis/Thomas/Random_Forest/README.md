@@ -3,7 +3,7 @@
 Open [Random_Forest_model.ipynb](Random_Forest_model.ipynb) to view the analysis.
 It compares **60 ECG features** with **the same features plus age and sex**, fitting
 five independent binary forests in each experiment for NORM, MI, STTC, CD, HYP.
-No GPU or PyTorch is required. No collaborators' notebooks are modified.
+No GPU or PyTorch is required.
 
 ## Reproduce on Longleaf
 
@@ -37,21 +37,6 @@ CPU partition. Each forest uses the allocated CPU count; labels and trials run
 sequentially. Adjust partition/account directives for your account if necessary.
 The runner uses the activated/selected Python for its notebook kernel and returns
 nonzero on failure. Do not fit models on a login node.
-
-The default notebook mode is smoke. Batch submission sets `RF_MODE` automatically.
-Repeated executions reuse feature and class-forest caches only when source, data,
-matrices, settings, and seed match. If scientific inputs change, use a new run name:
-
-```bash
-export RF_RUN_NAME=full_revision2
-sbatch analysis/Thomas/Random_Forest/run_random_forest.sh full
-```
-
-Run a current-code default smoke check first; the full runner checks its signature.
-If intentionally changing smoke inputs, archive the old local `results/smoke`
-directory before rerunning so the stale-cache check does not mix results. A file
-lock prevents simultaneous jobs from writing the same notebook. A failed job
-preserves partial notebook outputs and completed class models for resumption.
 
 ## Features, cohort, and evaluation
 

@@ -249,11 +249,3 @@ rebase finishes successfully. If unsure how to resolve it, `git rebase --abort`
 returns to the state before the rebase so you can ask the group for help.
 
 **Routine: pull → edit → check → commit → pull/rebase → check → push.**
-
-### Thomas's analysis folders
-
-See [analysis/Thomas/README.md](analysis/Thomas/README.md) for the organized
-[CNN](analysis/Thomas/CNN/1D_CNN_model.ipynb),
-[Random Forest](analysis/Thomas/Random_Forest/Random_Forest_model.ipynb), and
-[Descriptives](analysis/Thomas/Descriptives/descriptive_analysis.ipynb) notebooks
-and their Longleaf execution commands. Existing CNN results have been preserved.
