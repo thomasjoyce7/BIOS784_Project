@@ -19,6 +19,7 @@ data/raw/                  complete, unmodified 100 and 500 Hz release
 data/processed/            aligned arrays and CSV tables; ignored by Git
 reports/preprocessing_qc/  aggregate QC (Quality control) and data dictionaries
 tests/                     automated correctness checks
+final_report/              final project report, including sample code
 ```
 
 ### Reproduce on Longleaf
